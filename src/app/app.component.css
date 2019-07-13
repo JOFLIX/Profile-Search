@@ -1,0 +1,15 @@
+/* img{
+    max-width: %;
+} */
+
+#txtbox{
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    border: none;
+}
+
+.col-4{
+  display:block;
+  flex-direction: row;
+}
