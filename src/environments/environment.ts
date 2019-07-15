@@ -4,6 +4,8 @@
 
 export const environment = {
   production: false
+  private clientsectret='d8ce7a890172d5495154e020fb0d41eccd42a1c1'
+
 };
 
 /*
