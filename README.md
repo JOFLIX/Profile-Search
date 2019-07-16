@@ -18,13 +18,16 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Usage by Users
 
-A user can follow this link to get to the following deployed link:
+A user can follow this link to get to the following deployed link:https://joflix.github.io/Profile-Search/
 
 ## BDD
 
 ** Input:
 User inputs the username on the input field at the top,
 
+** Output: The user gets the output displayed 
+## Known Bugs
+As at now, there is none, but in case of any, dont hesitate to contact me
 
 
 
@@ -34,4 +37,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Contact
  # Name: Joflix Ooko
- # Email1: joflixo"gmail.com
+ # Email1: joflixo@gmail.com
