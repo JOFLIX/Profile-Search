@@ -11,7 +11,7 @@
   <div class="container-fluid" *ngIf="profile">
       <div class="row">
         <div class="col-sm-12">
-            <div class="bg-light">Profile Name: {{profile.name}}, Username: ({{profile.login}}) <span *ngIf="profile.company"></span>,
+            <div class="bg-light" style="text-align:center">Profile Name: {{profile.name}}, Username: ({{profile.login}}) <span *ngIf="profile.company"></span>,
               Working at {{profile.location}}
             </div>
         </div>
@@ -45,20 +45,33 @@
 
     </div>
     <div class="row">
+      <div class="col1">
+
+      </div>
       <div class="card-fluid">
         <div class="card-header">
           <h2>Repos</h2>
         </div>
-        <div class="card col-4" *ngFor="let repo of repos">
-          <div class="card">
-              <a href="{{repo.html_url}}" target="blank" class="btn btn-primary">View Project</a>
+        <div class="card" *ngFor="let repo of repos">
+          <div class="card-deck card-fluid">
+
+
+          <div class="card" class="col-md-3">
+            <ol>
+              <li>
+                <a href="{{repo.html_url}}" target="blank" class="btn btn-primary">View Project</a>
+              </li>
+            </ol>
+
           </div>
+
         <div class="card">
           &nbsp;{{repo.name}} -
 
         </div>
         <div class="card">
           {{repo.description}}
+        </div>
         </div>
         </div>
       </div>
